@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #eeb7ec, #e0dce0);
+}
+
+.home-container {
+display: flex;
+width: 80%;
+max-width: 1200px;
+justify-content: space-between;
+align-items: center;
+}
+
+.image-section {
+flex: 1;
+text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border: 5px dashed #fff;
+    padding: 9px; /
+}
+
+.intro-section {
+flex: 1;
+padding-left: 30px;
+}
+
+.intro-section h1 {
+font-size: 3rem;
+font-weight: bold;
+color: #333;
+}
+
+.intro-section p {
+font-size: 1.2rem;
+color: #555;
+margin: 20px 0;
+}
+
+.intro-section button {
+padding: 12px 25px;
+font-size: 1.2rem;
+background-color: #ea88c6; /* A fun button color */
+color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.intro-section button:hover {
+background-color: #e477c5; /* Hover effect */
+}
+  
