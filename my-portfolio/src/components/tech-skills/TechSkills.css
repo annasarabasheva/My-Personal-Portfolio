@@ -1,0 +1,99 @@
+.technical-skills {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #eeb7ec, #e0dce0);
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Subtle texture */
+    background-blend-mode: overlay;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    padding-bottom: 10em;
+  }
+  
+  .technical-skills h2 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8a1892;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+  }
+  
+  .skills-category {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 300px;
+    height: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-category:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.25);
+  }
+  
+  .skills-category h3 {
+    font-size: 1.4rem;
+    color: #8a1892;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .skills-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.15);
+  }
+  
+  .skill-icon {
+    font-size: 2.8rem;
+    color: #8a1892;
+    margin-bottom: 10px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .skill-item:hover .skill-icon {
+    color: #db63d3;
+    transform: rotate(-5deg);
+  }
+  
+  .skill-item p {
+    font-size: 1rem;
+    color: #8a1892;
+    margin: 0;
+    font-weight: 500;
+  }
+  
