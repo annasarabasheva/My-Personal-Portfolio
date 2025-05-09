@@ -1,0 +1,123 @@
+.certificates-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    position: relative;  /* Allows positioning of the arrows relative to the section */
+  }
+  .certificates-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    margin-top: 1.5em;
+  }
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 900px;  /* Adjusted width to ensure space for arrows */
+    justify-content: center;  /* Center content within the container */
+    margin: 0 auto;  /* Center container within the section */
+    position: relative;
+  }
+  
+  .certificate-card {
+    width: 400px;
+    height: 680px;
+    background: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .arrow {
+    background: #8a1892;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .arrow:hover {
+    background: #6c126e;
+  }
+  
+  .arrow.left {
+    left: 15px;
+  }
+  
+  .arrow.right {
+    right: 15px;
+  }
+  .certificate-card .certificate-preview {
+    width: 100%;
+    height: 600px;
+    background-color: #ececec;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .certificate-card .certificate-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .certificate-card h3 {
+    font-size: 1.4rem;
+    color: #8a1892;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .certificate-card span {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .view-btn {
+    background-color: #8a1892;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 0.5em;
+  }
+  
+  .view-btn:hover {
+    background-color: #6c126e;
+  }
+  
+  .view-btn .pdf-icon {
+    font-size: 1.2rem;
+  }

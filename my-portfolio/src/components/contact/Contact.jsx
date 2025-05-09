@@ -4,12 +4,12 @@ import "./Contact.css";
 
 const contactData = [
 
-    {
-        icon: <FaMapMarkerAlt />,
-        title: "Location",
-        value: "Stara Zagora, Bulgaria",
-        link: "https://goo.gl/maps/xyz" // Replace with actual Google Maps link
-        },
+{
+    icon: <FaMapMarkerAlt />,
+    title: "Location",
+    value: "Stara Zagora, Bulgaria",
+    link: "https://goo.gl/maps/xyz" // Replace with actual Google Maps link
+    },
   {
     icon: <FaEnvelope />,
     title: "Email",
