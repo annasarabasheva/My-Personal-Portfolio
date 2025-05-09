@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import TechSkills from './components/tech-skills/TechSkills';
 import Education from './components/education/Education';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/skills" element={<TechSkills />} />
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   )
