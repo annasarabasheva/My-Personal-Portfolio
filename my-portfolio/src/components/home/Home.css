@@ -3,7 +3,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #eeb7ec, #e0dce0);
+    background: linear-gradient(135deg, #e7b87b, #f1eef1);
 }
 
 .home-container {
@@ -48,7 +48,7 @@ margin: 20px 0;
 .about-btn {
 padding: 12px 25px;
 font-size: 1.2rem;
-background-color: #ea88c6; /* A fun button color */
+background-color: #d28949; /* A fun button color */
 color: white;
 border: none;
 border-radius: 50px;
@@ -58,6 +58,6 @@ text-decoration: none;
 }
 
 .about-btn:hover {
-background-color: #e477c5; /* Hover effect */
+background-color: #d1a427; /* Hover effect */
 }
   

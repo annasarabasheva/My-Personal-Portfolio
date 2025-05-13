@@ -1,6 +1,6 @@
 .education-section {
   padding: 100px 20px;
-  background: linear-gradient(135deg, #e3e8ff, #f0e6fa);
+  background: linear-gradient(135deg, #eaebf3, #99b8cd);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   font-size: 2.6rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #8a1892;
+  color: #1d507d;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -63,14 +63,14 @@
 
 .education-card h3 {
   font-size: 1.5rem;
-  color: #8a1892;
+  color: #3c678d;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 .education-card .degree {
   font-size: 1.1rem;
-  color: #5e3b75;
+  color: #13324a;
   font-weight: 600;
   margin-bottom: 12px;
 }

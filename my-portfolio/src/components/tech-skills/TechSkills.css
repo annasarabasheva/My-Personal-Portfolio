@@ -16,7 +16,7 @@
   font-size: 2.8rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #8a1892;
+  color: #634022;
   margin-bottom: 40px;
   font-weight: bold;
 }
@@ -54,7 +54,7 @@
 
 .skills-category h3 {
   font-size: 1.4rem;
-  color: #8a1892;
+  color: #90623c;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
@@ -80,18 +80,18 @@
 
 .skill-icon {
   font-size: 2.8rem;
-  color: #8a1892;
+  color: #f29913;
   margin-bottom: 10px;
   transition: color 0.3s;
 }
 
 .skill-item:hover .skill-icon {
-  color: #db63d3;
+  color: #dc4338;
 }
 
 .skill-item p {
   font-size: 1rem;
-  color: #8a1892;
+  color: #693c1a;
   margin: 0;
   font-weight: 500;
 }

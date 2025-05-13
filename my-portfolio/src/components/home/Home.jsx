@@ -8,14 +8,13 @@ const Home = () => {
     <section className="home">
       <div className="home-container">
         <div className="image-section">
-          <img src="/Anna.jpg" alt="Anna" className="profile-img" />
+          <img src="/Me.jpg" alt="Anna" className="profile-img" />
         </div>
 
         <div className="intro-section">
           <h1>Hi, I'm Anna</h1>
           <p>
-          I'm trying to become a Web Developer — consider this my first big step.  
-          (Well, not the first, but definitely the time to show them all.)
+          Welcome to my Web Development Journey ! <br/> Take a look around and see what I've been working on.
           </p>
 
           <Link to="/about" className="about-btn">About Me</Link>

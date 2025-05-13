@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px 40px;
-  background: linear-gradient(90deg, #f083d8, #f4a0f1, #ecbaec);
+  background: linear-gradient(90deg, #e9e6e4e2, #f4ead6, #f7e1c5);
   background-size: 300% 300%;
   animation: gradientShift 15s ease infinite;
   color: white;
@@ -34,7 +34,7 @@
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(65, 49, 49);
   font-size: 1.3rem;
   font-weight: 500;
   padding: 10px 15px;
