@@ -1,16 +1,16 @@
 .education-section {
-  padding: 100px 20px;
+  padding: 80px 20px;
   background: linear-gradient(135deg, #eaebf3, #99b8cd);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
   margin-top: 3em;
 }
 
 .education-section h2 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #1d507d;
@@ -19,26 +19,25 @@
 }
 
 .education-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1400px;
 }
 
 .education-card {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(200, 200, 255, 0.2);
   border-radius: 16px;
-  padding: 30px;
+  padding: 25px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 420px;
-  max-height: 500px; /* Set max height for uniformity */
+  max-width: 400px;
+  min-height: 450px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -48,55 +47,60 @@
   box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-.education-card img {
-  width: 120px;
-  height: 120px;
+.education-logo img {
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
   transition: transform 0.3s ease;
 }
 
-.education-card:hover img {
+.education-card:hover .education-logo img {
   transform: scale(1.1);
 }
 
 .education-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #3c678d;
   margin-bottom: 10px;
   font-weight: 700;
+  text-align: center;
 }
 
-.education-card .degree {
+.degree {
   font-size: 1.1rem;
   color: #13324a;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
-.location, .duration {
+.location,
+.duration {
   font-size: 1rem;
   color: #7a7a7a;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .details {
-  padding-left: 20px;
+  padding-left: 15px;
   text-align: left;
   list-style: none;
   margin-top: 10px;
-  max-height: 250px; /* Limit the height of the details section */
-  overflow-y: auto; /* Enable scroll if content overflows */
+  max-height: 180px;
+  overflow-y: auto;
+  width: 100%;
+  scrollbar-width: thin;
 }
 
 .details li {
   font-size: 1rem;
   color: #555;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   transition: transform 0.3s;
 }
 
@@ -107,6 +111,38 @@
 
 .details li::before {
   content: "🎓";
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #8a1892;
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 60px 20px;
+  }
+
+  .education-section h2 {
+    font-size: 2rem;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .education-card {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .education-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .degree, .location, .duration {
+    font-size: 1rem;
+  }
+
+  .details li {
+    font-size: 0.95rem;
+  }
 }
