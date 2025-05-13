@@ -1,6 +1,7 @@
-// src/components/Home.js
-import React from 'react';
+
 import './Home.css';
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
           (Well, not the first, but definitely the time to show them all.)
           </p>
 
-          <button>See My Work</button>
+          <Link to="/about" className="about-btn">About Me</Link>
         </div>
       </div>
     </section>

@@ -45,7 +45,7 @@ color: #555;
 margin: 20px 0;
 }
 
-.intro-section button {
+.about-btn {
 padding: 12px 25px;
 font-size: 1.2rem;
 background-color: #ea88c6; /* A fun button color */
@@ -54,9 +54,10 @@ border: none;
 border-radius: 50px;
 cursor: pointer;
 transition: background-color 0.3s;
+text-decoration: none;
 }
 
-.intro-section button:hover {
+.about-btn:hover {
 background-color: #e477c5; /* Hover effect */
 }
   

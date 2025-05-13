@@ -7,6 +7,7 @@ import Education from './components/education/Education';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Certificates from './components/certificates/Certificates';
+import AboutMe from './components/about/AboutMe';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='/about' element={<AboutMe />}/>
         <Route path="/techskills" element={<TechSkills />} />
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
