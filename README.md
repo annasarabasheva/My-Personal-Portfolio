@@ -1,6 +1,6 @@
 # 📦 Portfolio Website - Anna Sarabasheva
 
-A modern, responsive portfolio website built using ReactJS, showcasing projects, technical skills, certificates, and contact information. The website is structured as a single-page application with multiple sections and interactive components.
+A modern, responsive portfolio website built using ReactJS, showcasing my personal projects, technical skills, certificates, and contact information. The website is structured as a single-page application with multiple sections and interactive components.
 
 ---
 
