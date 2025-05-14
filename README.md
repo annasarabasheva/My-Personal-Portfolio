@@ -32,10 +32,6 @@ A modern, responsive portfolio website built using ReactJS, showcasing my person
 - Introduction and brief about Anna Sarabasheva
 - Smooth scrolling and visually appealing animations
 
-### 1. **Home Section**
-- Introduction and brief about Anna Sarabasheva
-- Smooth scrolling and visually appealing animations
-
 ### 2. **About Me Section**
 - Introduction to Anna Sarabasheva, including:
   - Brief background and personal summary
