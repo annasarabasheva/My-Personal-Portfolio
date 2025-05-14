@@ -33,10 +33,9 @@ A modern, responsive portfolio website built using ReactJS, showcasing my person
 - Smooth scrolling and visually appealing animations
 
 ### 2. **About Me Section**
-- Introduction to Anna Sarabasheva, including:
+- Short introduction, including:
   - Brief background and personal summary
-  - Interests, hobbies, and focus areas
-  - Personal philosophy and goals
+  - Answer to the question "Why i chose programming ? "
 
 ### 3. **Education Section**
 - Academic qualifications and certifications including:
