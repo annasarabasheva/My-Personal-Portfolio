@@ -10,7 +10,6 @@
 }
 
 .education-section h2 {
-  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #1d507d;
@@ -63,7 +62,6 @@
 .education-card h3 {
   font-size: 1.4rem;
   color: #3c678d;
-  margin-bottom: 10px;
   font-weight: 700;
   text-align: center;
 }

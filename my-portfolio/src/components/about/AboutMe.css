@@ -22,7 +22,7 @@
   z-index: 2;
   overflow: hidden;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  margin-top: 3em;
+  margin-top: 4.5em;
 }
 
 .about-container::before {
